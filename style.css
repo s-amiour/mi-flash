@@ -127,7 +127,6 @@ span {
 }
 
 .prompt-container {
-    width: 90vw;
     max-width: 34em;
     display: flex;
     flex-direction: column;
@@ -313,36 +312,26 @@ textarea:focus {
 
 
 
-
-
-
-
-
-
-
 /* responsiveness */
 @media (max-width: 1536px){
-    div {
-        max-width: 1280px;
+    .prompt-container {
+        width: 90vw;
         font-size: 95%;
     }
 }
 @media (max-width: 1280px){
-    div {
-        max-width: 1024px;
-        font-size: 90%;
+    .prompt-container {
+        width: 85vw;
     }
 }
 @media (max-width: 1024px){
-    div {
-        max-width: 768px;
-        font-size: 85%;
+    .prompt-container {
+        width: 80vw;
     }
 }
 @media (max-width: 768px){
-    div {
-        max-width: 640px;
-        font-size: 85%;
+    .prompt-container {
+        width: 75vw;
     }
     .deck-container {
         grid-template-columns: repeat(2, 1fr);
@@ -350,9 +339,8 @@ textarea:focus {
     }
 }
 @media (max-width: 640px){
-    div {
-        max-width: 475px;
-        font-size: 85%;
+    .prompt-container {
+        width: 72.5vw;
     }
     .deck-container {
         grid-template-columns: 1fr;
@@ -360,11 +348,11 @@ textarea:focus {
     }
 }
 @media (max-width: 475px){
-    div {
-        width: 100%;
-        font-size: 85%;
+    .prompt-container {
+        width: 70vw;
     }
 }
+
 
 
 /* Theme-specific styles */

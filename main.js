@@ -87,6 +87,8 @@ english.addEventListener("click", () => {
 
 
 
+
+
 // Prompt pop-out
 createFlashcardBtn.addEventListener("click", () => {
   container.classList.add("hide"); // container gets 
@@ -244,25 +246,6 @@ const disableButtons = (value) => {
     element.disabled = value;
   })
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
