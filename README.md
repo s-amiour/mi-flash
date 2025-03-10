@@ -5,7 +5,7 @@ A simple and minimalistic flashcard app used to quickly memorize key concepts.
 Try it now: https://s-amiour.github.io/mi-flash/
 ### Why?
 
-* I wanted to create an flashcard application that aids me to practice French words/phrases and their definitions.
+* I wanted to create an flashcard application that aids me to practice French words/phrases and their definitions/answers.
 
 ## Features
 
